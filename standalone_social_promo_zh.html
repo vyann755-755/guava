@@ -56,8 +56,10 @@ h2 {
 
 /* ─── SQUARE FORMAT (Instagram / Facebook) ─── */
 .card-sq {
-  width: 540px;
-  height: 540px;
+  width: 100%;
+  max-width: 540px;
+  aspect-ratio: 1 / 1;
+  height: auto;
   position: relative;
   overflow: hidden;
   background-color: #e6eedc;
@@ -151,8 +153,10 @@ h2 {
 
 /* ─── STORY FORMAT (TikTok / IG Stories) ─── */
 .card-story {
-  width: 304px;
-  height: 540px;
+  width: 100%;
+  max-width: 304px;
+  aspect-ratio: 304 / 540;
+  height: auto;
   position: relative;
   overflow: hidden;
   border-radius: 24px;
